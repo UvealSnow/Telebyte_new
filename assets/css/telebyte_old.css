@@ -1,0 +1,142 @@
+html {
+	font-size: 16px;
+}
+body {
+	font-size: 62.5% !important; /* 1em = 10px */
+	font-family: Telebyte;
+	color: white;
+}
+@media screen and (max-width: 766px) {
+	div.full-width {
+		width: 100%;
+	}
+	div.black-bar,
+	div.black-lang,
+	div.black-right {
+		display: inline-block;
+		overflow: hidden;
+	}
+	div.black-bar { 
+		background-color: green;
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 5em;
+		border-bottom: 1px solid black;
+	}
+	div.white-logo {
+		width: 20em;
+		margin-left: 7%;
+		display: inline-block;
+	}
+	div.black-lang {
+		width: 6em;
+		height: 5em;
+		display: inline-block;
+		float: right;
+		margin-right: 10%;
+	}
+	div.white-logo a img.logo {
+		width: 100%;
+		height: 48px;
+		position: relative;
+		font-weight: bold;
+		top: .1em;
+	}
+	div.black-lang a {
+		font-size: 1.6em;
+		transition: .5s color;
+		color: white;
+		text-align: center;
+		text-decoration: none;
+		position: relative;
+		top: 1.03125em;	
+	}
+	div.black-right {
+		height: 3.4em;
+		margin: .8em 15% 0 0;
+		float: right;
+	}
+	div.black-right p {
+		margin: 0;
+		text-align: center;
+		font-size: 1.6em;
+	}
+	div.black-lang a:hover, 
+	div.black-lang a:focus {
+		color: #669933;
+		transition: .5s color;
+	}
+	div.black-lang ul {
+		display: none;
+	}
+}
+@media screen and (min-width: 767px) {
+	div.full-width {
+		width: 100%;
+	}
+	div.black-bar,
+	div.black-lang,
+	div.black-right {
+		display: inline-block;
+		overflow: hidden;
+	}
+	div.black-bar { 
+		background-color: #333;
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 5em;
+		border-bottom: 1px solid black;
+	}
+	div.white-logo {
+		width: 20em;
+		margin-left: 7%;
+		display: inline-block;
+	}
+	div.black-lang {
+		width: 6em;
+		height: 5em;
+		display: inline-block;
+		float: right;
+		margin-right: 10%;
+	}
+	div.white-logo a img.logo {
+		width: 100%;
+		height: 48px;
+		position: relative;
+		font-weight: bold;
+		top: .1em;
+	}
+	div.black-lang a {
+		font-size: 1.6em;
+		transition: .5s color;
+		color: white;
+		text-align: center;
+		text-decoration: none;
+		position: relative;
+		top: 1.03125em;	
+	}
+	div.black-right {
+		height: 3.4em;
+		margin: .8em 15% 0 0;
+		float: right;
+	}
+	div.black-right p {
+		margin: 0;
+		text-align: center;
+		font-size: 1.6em;
+	}
+	div.black-lang a:hover, 
+	div.black-lang a:focus {
+		color: #669933;
+		transition: .5s color;
+	}
+	div.black-lang ul {
+		display: none;
+	}
+}
+@font-face {
+    font-family: Telebyte;
+    src: url('../fonts/Waukegan.ttf');
+}

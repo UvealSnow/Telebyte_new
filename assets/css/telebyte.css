@@ -1,0 +1,107 @@
+html {
+	font-size: 16px;
+}
+body {
+	font-size: 62.5% !important; /* 1em = 10px */
+	font-family: Telebyte;
+	color: white;
+	margin: 0;
+}
+a {
+	color: white;
+	text-decoration: none;
+	transition: .5s color;
+}
+div.full-width {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: initial;
+	padding: 0;
+}
+div.serv,
+div.lang {
+	float: right;
+}
+div.lang, 
+div.serv {
+	margin-right: 10%;
+}
+div.full-width.black-bar {
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 5em;
+	border: 1px solid black;
+}
+div.circuit-content {
+	background: url('../img/circuito.png') no-repeat;
+	background-size:100% 100%;
+	height: calc(100vh - 5.1em);
+	margin-top: 5.1em;
+}
+div.navbar-container {
+	background: url('../img/layout.png') no-repeat;
+	background-size:100% 100%;
+	height: 35%;
+}
+div.full-width.black-bar,
+div.black-bar div.logo,
+div.black-bar div.lang,
+div.black-bar div.serv, 
+div.black-bar div.hamb {
+	display: inline-block;
+}
+div.black-bar div.logo {
+	height: 5em;
+	width: 20em;
+	margin-left: 8.2%;
+}
+div.logo img.logo {
+	width: auto;
+	height: 5em;	
+}	
+div.lang a {
+	font-size: 1.6em;
+	position: relative;
+	top: 1.03125em;
+}
+div.lang a:hover,
+div.lang a:focus {
+	color: #ddd;
+	transition: .5s color;
+}
+div.serv p {
+	text-align: center;
+	font-size: 1.6em;
+	margin: .25em 0;
+}
+div.logo-container {
+	background-color: rgba(255, 255, 255, .5);
+}
+div.logo-container div.logo {
+	min-width: 20em;
+	width: 32vw;
+	margin: 3% 0;
+	display: inline-block;
+}
+div.logo-container div.logo a {
+	display: block;
+	text-align: center;
+}
+div.logo-container div.logo a img.logo {
+	width: 50%;
+	height: auto;
+	max-height: 8em;
+}
+@media screen and (max-width: 660px) {
+	
+}
+@media screen and (min-width: 767px) {
+	
+}
+@font-face {
+    font-family: Telebyte;
+    src: url('../fonts/Waukegan.ttf');
+}
